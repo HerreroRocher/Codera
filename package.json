@@ -1,0 +1,34 @@
+{
+  "name": "codera",
+  "version": "1.0.0",
+  "description": "Codera is a CLI tool that scaffolds full-stack web apps for developers who'd like to spend more time coding, less time setting up environments.",
+  "main": "index.js",
+  "bin": {
+    "codera": "bin/index.js"
+  },
+  "scripts": {
+    "test": "mkdir test-folder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HerreroRocher/Codera.git"
+  },
+  "keywords": [
+    "cli",
+    "codera",
+    "scaffolding",
+    "boilerplate",
+    "react",
+    "express",
+    "setup",
+    "generator",
+    "fullstack",
+    "automation"
+  ],
+  "author": "Daniel Herrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HerreroRocher/Codera/issues"
+  },
+  "homepage": "https://github.com/HerreroRocher/Codera#readme"
+}
