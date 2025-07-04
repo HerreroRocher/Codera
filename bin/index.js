@@ -1,10 +1,14 @@
 #!/usr/bin/env node
 
-import askProjectName from "../lib/prompts/getProjName.js";
+import getReactPreferences from "../lib/prompts/getReactPreferences.js";
+import createReactApp from "../lib/create_react_app.js";
 
 async function main() {
-  const proj_name = await askProjectName();
-  console.log("The project name is:", proj_name);
+  const { projectName, pathName } = await getReactPreferences();
+  await createReactApp(projectName, pathName);
+  
+  
+
 }
 
-main();
+main()
